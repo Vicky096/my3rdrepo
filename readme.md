@@ -1,4 +1,1 @@
-The three stages of Git
-Untracked: the file exists, but is not part of git's version control.
-Staged: the file has been added to git's version control but changes have not been committed.
-Committed: the change has been committed.
+Git reset operates on "The Three Trees of Git". These trees are the Commit History ( HEAD ), the Staging Index, and the Working Directory. There are three command line options that correspond to the three trees. The options --soft, --mixed , and --hard can be passed to git reset .
